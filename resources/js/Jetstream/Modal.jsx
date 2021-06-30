@@ -29,7 +29,7 @@ const Modal = forwardRef(({open = true, onClose, children, closeable = false, wi
                         leaveTo="opacity-0">
 
                         <Dialog.Overlay
-                            className="fixed inset-0 bg-gray-500 bg-opacity-20 transition-opacity backdrop-filter backdrop-blur-md"/>
+                            className="fixed inset-0 transition-opacity mix-blend-overlay bg-black bg-opacity-70"/>
                     </Transition.Child>
 
                     <div className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</div>
